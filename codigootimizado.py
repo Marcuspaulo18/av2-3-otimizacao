@@ -55,7 +55,7 @@ def vduplicataotimizada(lista, modo="exato"):
 # Nota: métodos de teste no unittest precisam começar com "test_".
 # ---------------------------------------------------------------------------
 class testeduplicata(unittest.TestCase):
-    def test_casosentradas(self):
+    def casosentradas(self):
         casosexatos = [
             [],
             [1, 2, 3],
